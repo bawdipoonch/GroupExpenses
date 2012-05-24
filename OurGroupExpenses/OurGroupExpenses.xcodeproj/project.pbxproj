@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071D34D7156E898100A52CDF /* GEContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34D2156E898100A52CDF /* GEContactsViewController.m */; };
+		071D34D8156E898100A52CDF /* GEContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34D2156E898100A52CDF /* GEContactsViewController.m */; };
+		071D34D9156E898100A52CDF /* GEEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34D4156E898100A52CDF /* GEEventsViewController.m */; };
+		071D34DA156E898100A52CDF /* GEEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34D4156E898100A52CDF /* GEEventsViewController.m */; };
+		071D34DB156E898100A52CDF /* GESettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34D6156E898100A52CDF /* GESettingsViewController.m */; };
+		071D34DC156E898100A52CDF /* GESettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34D6156E898100A52CDF /* GESettingsViewController.m */; };
+		071D34E0156E899600A52CDF /* GEAddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34DF156E899600A52CDF /* GEAddContactsViewController.m */; };
+		071D34E1156E899600A52CDF /* GEAddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34DF156E899600A52CDF /* GEAddContactsViewController.m */; };
 		079A32A8156E88290075319C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A32A7156E88290075319C /* UIKit.framework */; };
 		079A32AA156E88290075319C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A32A9156E88290075319C /* Foundation.framework */; };
 		079A32AC156E88290075319C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A32AB156E88290075319C /* CoreGraphics.framework */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071D34D1156E898100A52CDF /* GEContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEContactsViewController.h; sourceTree = "<group>"; };
+		071D34D2156E898100A52CDF /* GEContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEContactsViewController.m; sourceTree = "<group>"; };
+		071D34D3156E898100A52CDF /* GEEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEEventsViewController.h; sourceTree = "<group>"; };
+		071D34D4156E898100A52CDF /* GEEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEEventsViewController.m; sourceTree = "<group>"; };
+		071D34D5156E898100A52CDF /* GESettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESettingsViewController.h; sourceTree = "<group>"; };
+		071D34D6156E898100A52CDF /* GESettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESettingsViewController.m; sourceTree = "<group>"; };
+		071D34DE156E899600A52CDF /* GEAddContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEAddContactsViewController.h; sourceTree = "<group>"; };
+		071D34DF156E899600A52CDF /* GEAddContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEAddContactsViewController.m; sourceTree = "<group>"; };
 		079A32A3156E88290075319C /* OurGroupExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurGroupExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		079A32A7156E88290075319C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		079A32A9156E88290075319C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +130,14 @@
 		079A32AF156E88290075319C /* OurGroupExpenses */ = {
 			isa = PBXGroup;
 			children = (
+				071D34DE156E899600A52CDF /* GEAddContactsViewController.h */,
+				071D34DF156E899600A52CDF /* GEAddContactsViewController.m */,
+				071D34D1156E898100A52CDF /* GEContactsViewController.h */,
+				071D34D2156E898100A52CDF /* GEContactsViewController.m */,
+				071D34D3156E898100A52CDF /* GEEventsViewController.h */,
+				071D34D4156E898100A52CDF /* GEEventsViewController.m */,
+				071D34D5156E898100A52CDF /* GESettingsViewController.h */,
+				071D34D6156E898100A52CDF /* GESettingsViewController.m */,
 				079A32B8156E88290075319C /* GEAppDelegate.h */,
 				079A32B9156E88290075319C /* GEAppDelegate.m */,
 				079A32BB156E88290075319C /* OurGroupExpenses.xcdatamodeld */,
@@ -262,6 +286,10 @@
 				079A32B6156E88290075319C /* main.m in Sources */,
 				079A32BA156E88290075319C /* GEAppDelegate.m in Sources */,
 				079A32BD156E88290075319C /* OurGroupExpenses.xcdatamodeld in Sources */,
+				071D34D7156E898100A52CDF /* GEContactsViewController.m in Sources */,
+				071D34D9156E898100A52CDF /* GEEventsViewController.m in Sources */,
+				071D34DB156E898100A52CDF /* GESettingsViewController.m in Sources */,
+				071D34E0156E899600A52CDF /* GEAddContactsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				079A32D3156E88290075319C /* OurGroupExpensesTests.m in Sources */,
+				071D34D8156E898100A52CDF /* GEContactsViewController.m in Sources */,
+				071D34DA156E898100A52CDF /* GEEventsViewController.m in Sources */,
+				071D34DC156E898100A52CDF /* GESettingsViewController.m in Sources */,
+				071D34E1156E899600A52CDF /* GEAddContactsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +457,7 @@
 				079A32D8156E88290075319C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		079A32D9156E88290075319C /* Build configuration list for PBXNativeTarget "OurGroupExpensesTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +466,7 @@
 				079A32DB156E88290075319C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
