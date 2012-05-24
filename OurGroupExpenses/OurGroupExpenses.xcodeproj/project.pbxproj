@@ -15,6 +15,17 @@
 		071D34DC156E898100A52CDF /* GESettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34D6156E898100A52CDF /* GESettingsViewController.m */; };
 		071D34E0156E899600A52CDF /* GEAddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34DF156E899600A52CDF /* GEAddContactsViewController.m */; };
 		071D34E1156E899600A52CDF /* GEAddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D34DF156E899600A52CDF /* GEAddContactsViewController.m */; };
+		071D34F2156E8F9600A52CDF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D34EB156E8F9600A52CDF /* Accounts.framework */; };
+		071D34F3156E8F9600A52CDF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D34EC156E8F9600A52CDF /* AddressBook.framework */; };
+		071D34F4156E8F9600A52CDF /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D34ED156E8F9600A52CDF /* AddressBookUI.framework */; };
+		071D34F5156E8F9600A52CDF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D34EE156E8F9600A52CDF /* CoreLocation.framework */; };
+		071D34F6156E8F9600A52CDF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D34EF156E8F9600A52CDF /* iAd.framework */; };
+		071D34F7156E8F9600A52CDF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D34F0156E8F9600A52CDF /* MapKit.framework */; };
+		071D34F8156E8F9600A52CDF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D34F1156E8F9600A52CDF /* MessageUI.framework */; };
+		071D34FA156E8FC800A52CDF /* GEiPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071D34F9156E8FC800A52CDF /* GEiPhoneStoryboard.storyboard */; };
+		071D34FB156E8FC800A52CDF /* GEiPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071D34F9156E8FC800A52CDF /* GEiPhoneStoryboard.storyboard */; };
+		071D34FD156E900E00A52CDF /* GEiPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071D34FC156E900E00A52CDF /* GEiPadStoryboard.storyboard */; };
+		071D34FE156E900E00A52CDF /* GEiPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071D34FC156E900E00A52CDF /* GEiPadStoryboard.storyboard */; };
 		079A32A8156E88290075319C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A32A7156E88290075319C /* UIKit.framework */; };
 		079A32AA156E88290075319C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A32A9156E88290075319C /* Foundation.framework */; };
 		079A32AC156E88290075319C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A32AB156E88290075319C /* CoreGraphics.framework */; };
@@ -50,6 +61,15 @@
 		071D34D6156E898100A52CDF /* GESettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESettingsViewController.m; sourceTree = "<group>"; };
 		071D34DE156E899600A52CDF /* GEAddContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEAddContactsViewController.h; sourceTree = "<group>"; };
 		071D34DF156E899600A52CDF /* GEAddContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEAddContactsViewController.m; sourceTree = "<group>"; };
+		071D34EB156E8F9600A52CDF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		071D34EC156E8F9600A52CDF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		071D34ED156E8F9600A52CDF /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		071D34EE156E8F9600A52CDF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		071D34EF156E8F9600A52CDF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		071D34F0156E8F9600A52CDF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		071D34F1156E8F9600A52CDF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		071D34F9156E8FC800A52CDF /* GEiPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GEiPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		071D34FC156E900E00A52CDF /* GEiPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GEiPadStoryboard.storyboard; path = OurGroupExpenses/GEiPadStoryboard.storyboard; sourceTree = "<group>"; };
 		079A32A3156E88290075319C /* OurGroupExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurGroupExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		079A32A7156E88290075319C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		079A32A9156E88290075319C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,6 +95,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071D34F2156E8F9600A52CDF /* Accounts.framework in Frameworks */,
+				071D34F3156E8F9600A52CDF /* AddressBook.framework in Frameworks */,
+				071D34F4156E8F9600A52CDF /* AddressBookUI.framework in Frameworks */,
+				071D34F5156E8F9600A52CDF /* CoreLocation.framework in Frameworks */,
+				071D34F6156E8F9600A52CDF /* iAd.framework in Frameworks */,
+				071D34F7156E8F9600A52CDF /* MapKit.framework in Frameworks */,
+				071D34F8156E8F9600A52CDF /* MessageUI.framework in Frameworks */,
 				079A32A8156E88290075319C /* UIKit.framework in Frameworks */,
 				079A32AA156E88290075319C /* Foundation.framework in Frameworks */,
 				079A32AC156E88290075319C /* CoreGraphics.framework in Frameworks */,
@@ -99,6 +126,7 @@
 		079A3298156E88290075319C = {
 			isa = PBXGroup;
 			children = (
+				071D34FC156E900E00A52CDF /* GEiPadStoryboard.storyboard */,
 				079A32AF156E88290075319C /* OurGroupExpenses */,
 				079A32CB156E88290075319C /* OurGroupExpensesTests */,
 				079A32A6156E88290075319C /* Frameworks */,
@@ -118,6 +146,13 @@
 		079A32A6156E88290075319C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				071D34EB156E8F9600A52CDF /* Accounts.framework */,
+				071D34EC156E8F9600A52CDF /* AddressBook.framework */,
+				071D34ED156E8F9600A52CDF /* AddressBookUI.framework */,
+				071D34EE156E8F9600A52CDF /* CoreLocation.framework */,
+				071D34EF156E8F9600A52CDF /* iAd.framework */,
+				071D34F0156E8F9600A52CDF /* MapKit.framework */,
+				071D34F1156E8F9600A52CDF /* MessageUI.framework */,
 				079A32A7156E88290075319C /* UIKit.framework */,
 				079A32A9156E88290075319C /* Foundation.framework */,
 				079A32AB156E88290075319C /* CoreGraphics.framework */,
@@ -130,6 +165,7 @@
 		079A32AF156E88290075319C /* OurGroupExpenses */ = {
 			isa = PBXGroup;
 			children = (
+				071D34F9156E8FC800A52CDF /* GEiPhoneStoryboard.storyboard */,
 				071D34DE156E899600A52CDF /* GEAddContactsViewController.h */,
 				071D34DF156E899600A52CDF /* GEAddContactsViewController.m */,
 				071D34D1156E898100A52CDF /* GEContactsViewController.h */,
@@ -249,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				079A32B4156E88290075319C /* InfoPlist.strings in Resources */,
+				071D34FA156E8FC800A52CDF /* GEiPhoneStoryboard.storyboard in Resources */,
+				071D34FD156E900E00A52CDF /* GEiPadStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				079A32D0156E88290075319C /* InfoPlist.strings in Resources */,
+				071D34FB156E8FC800A52CDF /* GEiPhoneStoryboard.storyboard in Resources */,
+				071D34FE156E900E00A52CDF /* GEiPadStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
